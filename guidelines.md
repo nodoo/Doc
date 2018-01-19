@@ -34,7 +34,7 @@
 
 PEP8 es una guía de estilo para código python. En las últimas versiones desde Odoo se han esforzado en seguir el estandar de python, mejorando el código notablemente. Nosotros también lo vamos a hacer. Seguir estas recomendaciones de estilo no solo ayuda a estandarizar el código, también ayuda a su lectura, a su mantenimiento y a su posible migración a versiones posteriores de python.
 
-Desde Eclipse hemos activado la revisión de código a excepción de los avisos por líneas demasiado largas (E501). En Odoo hay otras reglas que también se pueden saltar:
+Desde Eclipse hemos activado la revisión de código a excepción de los avisos por líneas demasiado largas (E501). En el código original de Odoo hay otras reglas que también se pueden saltar:
 
 - E501: line too long
 - E301: expected 1 blank line, found 0
@@ -45,13 +45,13 @@ Desde Eclipse hemos activado la revisión de código a excepción de los avisos 
 - E128: continuation line under-indented for visual indent
 - E265: block comment should start with '# '
 
-Nosotros vamos a intentar cumplir todas (es bastante sencillo) menos la E501 que nos puede costar un poco más. Esa regla límita el tamaño de cada línea a 79 caracteres. Puede que sea demasiado poco, y también que nos cueste dividir líneas muy largas en varias líneas má cortas. Aun así vamos a intentarlo. La barra vertical que sale en el editor indica el límite de linea del estandar. Si vemos que pasa de ahí intenramos acortarlo. Ante la duda de como hacer, mejor preguntar antes de dejar código que no sabemos si está bien.
+Nosotros vamos a intentar cumplir todas (es bastante sencillo) menos la E501 que nos puede costar un poco más. Esa regla limita el tamaño de cada línea a 79 caracteres. Puede que sea demasiado poco, y también que nos cueste dividir líneas muy largas en varias líneas más cortas. Aun así vamos a intentarlo. La barra vertical que sale en el editor indica el límite de línea del estandar. Si vemos que pasa de ahí intentaremos acortarlo. Ante la duda de como hacerlo, mejor preguntar.
 
-Como hasta ahora no hemos aplicado estos estilos nos saldrán un monton de mensajitos de PEP8. Los típicos:
+Como hasta ahora no hemos aplicado estos estilos nos saldrán un monton de mensajitos de PEP8 en nuestro código. Los típicos:
 - Espacios en blanco de más o falta de algún espacio, por ejemplo entre operadores o después de los dos puntos en un diccionario
 - Saltos de línea de más o de menos
 - Mala tabulación del código. A veces he visto incluso tabulaciones que no son múltiplo de 4 espacios. También hay mezclas entre tabulacioens y espacios. Sólo se usarán espacios
-- Variables definidas que no se usan para nada
+- Variables definidas que no se usan posteriorment
 - Imports que no se usan
 
 #### Imports
