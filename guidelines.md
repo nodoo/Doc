@@ -14,7 +14,7 @@
 - PyDev > Editor > Tabs
   - Tab length: 4
   - Replace tabs with spaces whan typing?: yes
-  - Assume tab spacing whan files contain tabs?: yes
+  - Assume tab spacing when files contain tabs?: yes
 - PyDev > Interpreters > Python Interpreter
   - Name: python, Location: /usr/bin/python
 - XML > XML Files > Editor
